@@ -17,6 +17,11 @@ Then you move along to
 pipenv install
 ```
 This installs all the dependemcies required, so next we:
+
+```bash
+pipenv shell
+```
+The last command was done to activate our virtual enviromrnt.
 Create a .env file with all of the settings in it, check out the /app/config.py and __init__.py you would see what you need to get.
 
 After doing that we can then
